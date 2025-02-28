@@ -1,15 +1,15 @@
 import adapter from '@sveltejs/adapter-static';
 
-export default {
-  kit: {
-    adapter: adapter({
-      pages: 'docs', // Output HTML to 'docs/'
-      assets: 'docs', // Output assets to 'docs/'
-      fallback: 'index.html', // Ensure proper routing
-    }),
-    paths: {
-      base: '', // Keep empty unless using GitHub Pages
-      assets: '' // Ensure this is empty or absolute if used
-    }
-  }
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+	kit: {
+		adapter: adapter({
+			fallback: '404.html'
+		}),
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		}
+	}
 };
+
+export default config;
