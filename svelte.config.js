@@ -1,15 +1,11 @@
 import adapter from '@sveltejs/adapter-static';
 
-const dev = process.argv.includes('dev');
-
 export default {
   kit: {
     adapter: adapter(),
     paths: {
-      base: dev ? '' : '/honesty-store', 
+      base: process.env.NODE_ENV === 'production' ? '/honesty-store' : '',
     },
-    prerender: {
-      default: true,
-    }
+    appDir: 'app',
   }
 };
