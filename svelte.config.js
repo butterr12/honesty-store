@@ -4,7 +4,8 @@ export default {
   kit: {
     adapter: adapter(),
     paths: {
-      base: "/honesty-store" 
-    }
+      base: process.env.NODE_ENV === 'production' ? '/honesty-store' : '',
+    },
+    appDir: 'app',
   }
 };
