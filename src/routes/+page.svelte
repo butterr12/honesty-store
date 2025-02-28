@@ -1,4 +1,6 @@
 <script>
+    import { base } from "$app/paths";
+    
     let groupedProducts = [
       { price: "2 for ₱5", items: ["Hany"] },
       { price: "3 for ₱5", items: ["Choko Choko", "Frutos", "Mentos", "Milk", "O-Puff", "Potchi"] },
@@ -14,24 +16,31 @@
   <style>
     body {
       background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-      font-family: Comic Sans MS, cursive, sans-serif;
+      font-family: "Comic Sans MS", cursive, sans-serif;
       text-align: center;
       margin: 0;
       padding: 0;
     }
   
     .title {
-    font-size: 3rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px black;
-    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: block;
-    text-align: center;
-    margin: 20px auto; 
-    width: fit-content; 
-  }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px; 
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px black;
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 20px auto;
+      width: fit-content;
+    }
+  
+    .logo {
+      width: 50px; 
+      height: auto;
+    }
   
     .products-container {
       display: flex;
@@ -63,7 +72,10 @@
   </style>
   
   <main>
-    <h1 class="title">Honesty Store</h1>
+    <h1 class="title">
+        Honesty Store <img src="{base}/yes.png" alt="Yes" class="logo">
+    </h1>
+  
     <div class="products-container">
       {#each groupedProducts as group}
         <div class="product-group">
