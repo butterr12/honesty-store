@@ -1,4 +1,4 @@
-# 🛒 Honesty Store - UP Diliman Computer Science
+# Honesty Store - UP Diliman Computer Science 🛒
 
 Welcome to the **Honesty Store**, the only place where **your conscience is the cashier!**  
 
