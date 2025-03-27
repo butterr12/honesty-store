@@ -13,7 +13,8 @@ Because running a small store wasn’t chaotic enough, I built a **website** for
 Every snack purchase funds **CS Department initiatives**, including:  
 - 🚰 The **water station** (hydration = brain function)  
 - 📚 **Review sessions** (so we all pass... hopefully)  
-- 🎉 **Graduation dinner** (because surviving CS deserves a feast)  
+- 🎉 **Graduation dinner** (because surviving CS deserves a feast)
+- 🏫 **Flagship events of the department** like Computer Science Week or Bootcamp xx.0
 
 ## ⚠️ Disclaimer  
 Yes, we trust you. No, this is not an invitation to “beta test” shoplifting. 😆  
