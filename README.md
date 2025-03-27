@@ -6,8 +6,8 @@ Located on the **second floor of the UP Alumni Engineers Centennial Hall**, this
 
 ## 🤪 The Website  
 Because running a small store wasn’t chaotic enough, I built a **website** for it - packed with:  
-✅ **Peak web design irony**  
-✅ **Comic Sans** (yeah...)  
+- **Peak web design irony**  
+- **Comic Sans** (yeah...)  
 
 ## 🎓 Where Your Money Goes  
 Every snack purchase funds **CS Department initiatives**, including:  
