@@ -5,7 +5,7 @@ Welcome to the **Honesty Store**, the only place where **your conscience is the 
 Located on the **second floor of the UP Alumni Engineers Centennial Hall**, this self-service mini-store lets you grab snacks, drinks, and maybe a bit of existential guilt if you “forget” to pay.  As one of my initiatives as a UP Diliman Computer Science Representative, this store operates on an honesty-based system, where students take what they need and leave the correct payment.
 
 ## 🤪 The Website  
-Because running a small store wasn’t chaotic enough, I built a **website** for it—packed with:  
+Because running a small store wasn’t chaotic enough, I built a **website** for it - packed with:  
 ✅ **Peak web design irony**  
 ✅ **Comic Sans** (yeah...)  
 
